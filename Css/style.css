@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    background-color: #449da0;
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+
+button {
+    background-color: #449da0;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(151, 243, 196);
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Sacramento', cursive, sans-serif;
+    margin: 100px 0px 0px 0px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.cloud {
+    position: absolute;
+    left: 350px;
+    top: 300px;
+}
+
+.cloud2 {
+    position: absolute;
+    right: 350px;
+    top: 250px;
+}
+
+.profile,
+.skills,
+.middle-container,
+.contact-me {
+    text-align: center;
+}
+
+.name,
+h2 {
+    color: #11999E;
+}
+
+h3,
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+.giphy-embed,
+.giph {
+    width: 100px;
+    height: 100px;
+    border: none;
+    display: inline-block;
+}
+
+.skill {
+    width: 100px;
+    float: left;
+    padding-right: 30px;
+}
+
+.skill-row1 {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.skill-row2 {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+hr {
+    display: inline-block;
+    border-top: 5px dotted #11999E;
+    border-bottom: none;
+    width: 50px;
+    margin: 50px 0px;
+}
+
+.computer {
+    float: right;
+    padding: 0 0 90px 30px;
+    width: 100px;
+}
+
+.bottom-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    background-color: #449da0;
+    text-align: center;
+}
+
+.footer-link{
+    color:rgb(47, 67, 83);
+    display: inline-block;
+    margin: 0;
+    padding-top: 50px;
+}
+.btn {
+    background-color: #11999E;
+    color: aliceblue;
+    padding: 7px 14px;
+    border-radius: 6px;
+    font-weight: normal;
+}
+.footer-link:hover{
+    color: #000000;
+    cursor: pointer;
+}
